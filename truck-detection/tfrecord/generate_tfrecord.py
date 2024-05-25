@@ -22,11 +22,10 @@ from absl import app
 from absl import flags
 from collections import namedtuple, OrderedDict
 
-flags = tf.app.flags
+FLAGS = flags.FLAGS
 flags.DEFINE_string('csv_input', '', 'Path to the CSV input')
 flags.DEFINE_string('output_path', '', 'Path to output TFRecord')
 flags.DEFINE_string('image_dir', '', 'Path to images')
-FLAGS = flags.FLAGS
 
 
 # TO-DO replace this with label map
@@ -36,7 +35,6 @@ def class_text_to_int(row_label):
         return 1
     else:
         None
-
 
 def split(df, group):
     data = namedtuple('data', ['filename', 'object'])
