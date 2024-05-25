@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Sejarah-Palkun-4_jpg.rf.cf426d1f397da582edc39c4bfa69c295.jpg</filename>
+	<path>Sejarah-Palkun-4_jpg.rf.cf426d1f397da582edc39c4bfa69c295.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>388</xmax>
+			<ymin>30</ymin>
+			<ymax>620</ymax>
+		</bndbox>
+	</object>
+</annotation>

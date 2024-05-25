@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>bak-truk-2B-25283-2529_jpg.rf.dee449427041578d881d431d087b7168.jpg</filename>
+	<path>bak-truk-2B-25283-2529_jpg.rf.dee449427041578d881d431d087b7168.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>223</xmin>
+			<xmax>605</xmax>
+			<ymin>1</ymin>
+			<ymax>641</ymax>
+		</bndbox>
+	</object>
+</annotation>
