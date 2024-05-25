@@ -18,6 +18,8 @@ import tensorflow as tf
 
 from PIL import Image
 from object_detection.utils import dataset_util
+from absl import app
+from absl import flags
 from collections import namedtuple, OrderedDict
 
 flags = tf.app.flags
@@ -29,12 +31,9 @@ FLAGS = flags.FLAGS
 
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
-    if row_label == 'totoro':
+    if row_label == 'truck':
     # if row_label == 'tommad':
         return 1
-    elif row_label == 'nekobus':
-    # elif row_label == 'kk':
-        return 2
     else:
         None
 
@@ -101,4 +100,4 @@ def main(_):
 
 
 if __name__ == '__main__':
-    tf.app.run()
+    app.run(main)
